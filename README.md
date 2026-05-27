@@ -6,9 +6,6 @@ Repositório criado para armazenar meus estudos e exercícios de JavaScript.
 
 - Variáveis
 - Condicionais
-- Loops
-- Funções
-- Arrays
 - Lógica de programação
 
 ## Objetivo

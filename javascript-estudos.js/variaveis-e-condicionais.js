@@ -22,7 +22,6 @@ let mensagemDeErro = "Erro! Preencha todos os campos";
 // Mostra a mensagem de erro
 alert(mensagemDeErro);
 
-
 // Pergunta o nome do usuário
 let promptNome = prompt("Qual seu nome?");
 

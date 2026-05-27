@@ -2,7 +2,7 @@
 alert("Boas vindas ao nosso site!");
 
 // Declara uma variável com o nome do usuário
-let nome = "Lua";
+let nome = "João";
 
 // Declara a idade do usuário
 let idade = 25;
@@ -28,7 +28,10 @@ let promptNome = prompt("Qual seu nome?");
 // Pergunta a idade do usuário e converte para número
 let promptIdade = parseInt(prompt("Qual sua idade?"));
 
-// Verifica se o usuário pode tirar habilitação
+// Verifica se o usuário pode acessar site
 if (promptIdade >= 18) {
-    alert("Pode tirar a habilitação");
+    alert("Acesso permitido!");
+} else { 
+    alert("Acesso negado!");
 }
+

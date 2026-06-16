@@ -4,9 +4,13 @@ Repositório criado para armazenar meus estudos e exercícios de JavaScript.
 
 ## Conteúdo estudado
 
+- Lógica de programação
 - Variáveis
 - Condicionais
-- Lógica de programação
+- Loops
+- Functions 
+- Arrays
+- Excercicios e Projetos
 
 ## Objetivo
 

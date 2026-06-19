@@ -19,7 +19,6 @@ Repositório criado para armazenar meus estudos, exercícios e projetos durante 
 - Tags semânticas
 - Formulários
 - Tabelas
-- Exercícios
 
 ### CSS
 - Seletores
@@ -27,7 +26,6 @@ Repositório criado para armazenar meus estudos, exercícios e projetos durante 
 - Box Model
 - Flexbox
 - Grid Layout
-- Exercícios
 
 ### Outros tópicos
 - Git e GitHub

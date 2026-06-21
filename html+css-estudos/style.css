@@ -1,0 +1,50 @@
+/* Importa as fontes "Elms Sans" e "Roboto" do Google Fonts para serem utilizadas no projeto */
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+* { /* Seleciona todos os elementos HTML da página */
+    margin: 0; /* Remove as margens padrão dos elementos */
+    padding: 0; /* Remove os espaçamentos internos padrão dos elementos */
+    box-sizing: border-box;
+}
+
+body {
+    background-color:burlywood; /* Define a cor de fundo de toda a página */
+    height: 100vh; /* Define a altura do elemento como 100% da altura visível da janela do navegador (viewport) */
+}
+
+.apresentacao {
+    margin: 4%; /* Define uma margem externa ao redor do elemento, criando espaço entre ele e os elementos vizinhos */
+    display: flex; /* Ativa o Flexbox, permitindo organizar os elementos filhos em linha ou coluna de forma flexível */
+    align-items: center; /* Alinha os itens filhos no eixo vertical (quando display: flex está ativo), colocando-os centralizados dentro do container */
+    justify-content: space-between; /* Distribui os elementos deixando espaço entre eles */
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__principal {
+    width: 400px; /* Define a largura da seção em pixels */
+    border: 2px solid red; /* Cria uma borda vermelha de 2 pixels ao redor do elemento */
+}
+
+.apresentacao__principal__paragrafo {
+    color: brown; /* Define a cor do texto dos elementos */
+    font-size: 36px; /* Define o tamanho da fonte em pixels */
+    font-family: "Elms Sans", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botao {
+    background-color: aqua; /* Define a cor de fundo do botão */
+    width: 200px;
+    text-align: center; /* Centraliza o texto horizontalmente dentro do botão */
+    border-radius: 16px; /* Arredonda os cantos do botão */
+    font-size: 24px;
+    padding: 13px;
+    text-decoration: none; /* Remove decorações padrão do texto, como o sublinhado dos links */
+    color:black;
+    font-family: "Elms Sans", sans-serif;
+}

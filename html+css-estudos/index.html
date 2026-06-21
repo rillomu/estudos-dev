@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- Informa ao navegador que este documento utiliza HTML5 -->
+   
+    <html lang="pt-BR"> <!-- O atributo lang define o idioma principal da página como português do Brasil -->
+
+    <head> <!-- Área de configurações da página, os conteudos dessa Tag normalmente não vão aparecer na tela -->
+
+        <meta charset="UTF-8"> <!-- Permite o uso correto de caracteres especiais, como ç, ã e acentos -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a área visível da página para dispositivos móveis, permitindo um layout responsivo e sem zoom inicial. -->
+
+        <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS externo à página, permitindo aplicar estilos definidos em style.css -->
+
+        <title>Testes html</title> <!-- Texto exibido na aba do navegador -->
+    
+    </head>
+
+    <body> <!-- Todo o conteúdo que o usuário vê fica dentro do body --> 
+
+        <header>Conteudo do Cabeçalho</header> <!-- Define o cabeçalho da página -->
+
+        <main class="apresentacao"> <!-- Conteúdo principal da página -->
+
+            <section class="apresentacao__principal"> <!-- Tag semântica usada para agrupar um bloco de conteúdo relacionado dentro da página, geralmente uma seção com um tema específico -->
+
+            <h1>Titulo da Pagina</h1> <!-- Título principal da página, deve ser usado apenas uma vez na maioria dos casos. -->                                                    
+
+            <h2>Subtitulo</h2> <!-- Subtítulo da página, representa uma seção relacionada ao título principal -->
+
+            <p class="apresentacao__principal__paragrafo">Conteudo do Paragrafo</p> <!-- Parágrafo de texto, esta utilizando a classe "ParagrafoMarrom" para receber estilos definidos no CSS -->
+
+            <p><strong>Paragrafo em Negrito</strong></p> <!-- Tag <strong>, define um texto com forte importância (geralmente exibido em negrito) -->
+
+            <ul> <!-- Lista não ordenada (com marcadores) -->
+                <li>Item da lista 1</li>  
+                <li>Item da lista 2</li> <!-- Itens da lista -->
+                <li>Item da lista 3</li>
+            </ul>
+
+            </section>
+
+            <div class="apresentacao__links">  <!-- Container que agrupa os links da seção de apresentação. O "__links" segue a metodologia BEM, indicando que este elemento pertence ao bloco "apresentacao" -->
+                <a class="apresentacao__links__botao" href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Acessar Google </a> <!-- Cria um hiperlink que permite navegar para outro destino -->
+
+                <a class="apresentacao__links__botao" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> Acessar Instagram </a>
+            </div>
+
+            <img src="imagem-html.png" alt="imagem-html"> <!-- Exibe uma imagem, Tag não possui fechamento, apenas abertura.
+                                                           src = caminho do arquivo da imagem.
+                                                           alt = texto alternativo exibido caso a imagem não carregue
+                                                           e utilizado por leitores de tela para acessibilidade -->   
+
+        </main>
+        
+        <footer>Conteudo do rodapé</footer> <!-- Rodapé da página -->
+        
+    </body>
+</html> 
+
+
